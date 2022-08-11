@@ -1,0 +1,26 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real temperatura
+		escreva("Digite a temperatura em Celsius: ")
+		leia(temperatura)
+
+		real Fahrenhet = (temperatura * 1.8 + 32)
+
+		escreva("Temperatura em Fahrenhet é: ", Fahrenhet)
+		
+	}
+}
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 213; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */
