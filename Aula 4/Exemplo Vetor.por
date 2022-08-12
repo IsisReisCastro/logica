@@ -3,21 +3,29 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro n
-		escreva("Digite o número: ")
-		leia(n)
-		para(inteiro i=10;  i!=0 ; i--){
-			escreva("\n",n , " x ", i, " = ", n * i)  
+		inteiro numero
+		//cadeia nome1, nome2, nome3, nome4, nome5
+		cadeia nome[5]
+			nome[0]="João"
+			nome[1]="Maria"
+			nome[2]="Carla"
+			nome[3]="Jorge"
+			nome[4]="Isis"
 
-		}
+			escreva(nome[1])
+		cadeia cores[3] = {"Verde","Azul","Branco"}
+		escreva("\n",cores[2])
+		cadeia times[] = {"Flamengo","VASCO","Serrano","Fluminense","Botafogo"}
+		escreva("\n",times[2])
 	}
+	
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 176; 
+ * @POSICAO-CURSOR = 391; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
