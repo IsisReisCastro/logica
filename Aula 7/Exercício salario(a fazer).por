@@ -9,6 +9,13 @@ programa
 		Mostrar na tela a lista dos salários.*/
 		cadeia nome[5]
 		real salario[5]
+		
+		para(inteiro i=1; i <= 5; i++){
+			para(inteiro j=1; j <= 5; j++)
+			
+			escreva("Digite seu nome: ","Digite o salario: ")
+			leia(nome[i], salario[j])
+		}	
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -16,7 +23,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 300; 
+ * @POSICAO-CURSOR = 375; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
